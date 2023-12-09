@@ -17,11 +17,16 @@ body {
   font-weight: bold;
   height: 100vh;
   color: #172724;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #my-name {
   font-size: 80px;
   color: white;
+  font-weight: 700;
 }
 
 #description {
@@ -53,7 +58,7 @@ body {
 }
 
 #about p {
-  width: 46ch;
+  width: 40ch;
   font-size: 18px;
   margin: 10px;
 }
